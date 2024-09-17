@@ -55,6 +55,9 @@ button {
   display: inline-block;
   cursor: pointer;
 }
+.special-button:hover, .special-button:active {
+  background-color: none;
+}
 
 /* Phần Collapse */
 .collapsible {
