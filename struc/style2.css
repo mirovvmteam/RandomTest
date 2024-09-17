@@ -46,13 +46,16 @@ button {
 
 /* Nút nổi */
 .special-button {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
+  background-color: #4CAF50; /* Màu xanh lá */
   border: none;
   color: white;
-  background-color: #4CAF50;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  margin-right: 10px;
   cursor: pointer;
 }
 .special-button:hover, .special-button:active {
