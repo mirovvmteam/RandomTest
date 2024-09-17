@@ -44,24 +44,6 @@ button {
   cursor: pointer;
 }
 
-/* Nút nổi */
-.special-button {
-  background-color: #4CAF50; /* Màu xanh lá */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 0;
-  margin-right: 10px;
-  cursor: pointer;
-}
-.special-button:hover, .special-button:active {
-  background-color: none;
-}
-
 /* Phần Collapse */
 .collapsible {
   background-color: #eee;
