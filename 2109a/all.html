@@ -2,25 +2,28 @@
 <head>
     <title>Trắc nghiệm Tổng hợp</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="struc/style2.css">
+	<link rel="stylesheet" href="/RandomTest/struc/style.css">
 	<meta http-equiv="Cache-control" content="no-cache">
 	<meta http-equiv="Expires" content="-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1"
 	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAREREQERAAARERERERAAARAAAAERAAARAAAAEREQABEAAAERARAAEQAAARABEAARAAAAAAEQABEAAAAAARAAEQAAAAABEAARAAAAAAEQABEAAAAAARAAARAAAAARAAAAERERERAAAAABERERAAD//wAA//wAAPgIAADwAQAA5+MAAM/BAADPiQAAz5kAAM/5AADP+QAAz/kAAM/5AADP+QAA5/MAAPAHAAD4DwAA" rel="icon" type="image/x-icon">
 </head>
 <body>
-    <h1>Tổng hợp các đề trắc nghiệm:</h1>
-   	<br>
-	<button type="button" class="collapsible">Hãy chọn đề</button>
-	<div class="content">
-		<p><a href="0107/index.html">Ngày 01/7 (Điều dưỡng)</a></p>
-		<p><a href="1807/index.html">Ngày 18/7 (Đề cương Nội)</a></p>
-		<p><a href="0108/index.html">Ngày 01/8 (Đề cương Ngoại)</a></p>
-		<p><a href="1709/index.html">Ngày 17/9 (Đề cương Cấp cứu)</a></p>
-		<p><a href="2109a/index.html">Ngày 21/9 (Đề cương Truyền nhiễm)</a></p>
-		<p><a href="2109b/index.html">Ngày 21/9 (Đề cương Sản)</a></p>
-	</div>
+    <a href="index.html">
+    <button>Quay lại trang chủ</button>
+	</a>
+    <h1>Trắc nghiệm nhiều lựa chọn</h1>
+    <div id="questions-container"></div>
 	<br>
-	<script src="struc/collapse.js" charset="utf-8"></script>
+    <button onclick="submitAnswers()">Chấm điểm</button>
+	<button onClick="window.location.href=window.location.href">Làm lại bài</button>
+	<br>
+	<div id="score"></div>
+	<script>
+		var questionAmount = 300;
+		var questionScore = 1;
+	</script>
+	<script src="question.js" charset="utf-8"></script>
+	<script src="/RandomTest/struc/script-no.js" charset="utf-8"></script>
 </body>
 </html>
