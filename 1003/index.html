@@ -2,28 +2,24 @@
 <head>
     <title>Trắc nghiệm Tổng hợp</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="/RandomTest/struc/style.css">
+	<link rel="stylesheet" href="/RandomTest/struc/style2.css">
 	<meta http-equiv="Cache-control" content="no-cache">
 	<meta http-equiv="Expires" content="-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1"
 	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAREREQERAAARERERERAAARAAAAERAAARAAAAEREQABEAAAERARAAEQAAARABEAARAAAAAAEQABEAAAAAARAAEQAAAAABEAARAAAAAAEQABEAAAAAARAAARAAAAARAAAAERERERAAAAABERERAAD//wAA//wAAPgIAADwAQAA5+MAAM/BAADPiQAAz5kAAM/5AADP+QAAz/kAAM/5AADP+QAA5/MAAPAHAAD4DwAA" rel="icon" type="image/x-icon">
 </head>
 <body>
-    <a href="index.html">
-    <button>Quay lại trang chủ</button>
-	</a>
-    <h1>Trắc nghiệm toàn bộ</h1>
-    <div id="questions-container"></div>
+    <h1>Hãy chọn loại đề bạn muốn làm:</h1>
+   	<br>
+	<button type="button" class="collapsible">Trắc nghiệm nhiều câu</button>
+	<div class="content">
+		<p><a href="abcd.html">Làm bài</a></p>
+	</div>
 	<br>
-    <button onclick="submitAnswers()">Chấm điểm</button>
-	<button onClick="window.location.href=window.location.href">Làm lại bài</button>
-	<br>
-	<div id="score"></div>
-	<script>
-		var questionAmount = 49;
-		var questionScore = 1;
-	</script>
-	<script src="question.js" charset="utf-8"></script>
-	<script src="/RandomTest/struc/script-no.js" charset="utf-8"></script>
+	<button type="button" class="collapsible">Trắc nghiệm toàn bộ</button>
+	<div class="content">
+		<p><a href="all.html">Làm bài</a></p>
+	</div>
+	<script src="/RandomTest/struc/collapse.js" charset="utf-8"></script>
 </body>
 </html>

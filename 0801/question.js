@@ -1351,7 +1351,7 @@ var questionsDatabase = [{
 }, {
     'question': 'Trong những tổn thưưng của chấn thương sọ não sau đây, tổn thương nào là thứ phát :',
     'options': ['Giập não.', 'Chấn động não.', 'Nứt sọ.', 'Tụ máu não thất.'],
-    'correctAnswer': 0,
+    'correctAnswer': 3,
     'id': 271
 }, {
     'question': 'Trong những tổn thưưng của chấn thương sọ não sau đây, tổn thương nào là thứ phát :',
